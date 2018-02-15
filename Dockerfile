@@ -6,4 +6,4 @@ ENV PYTHONIOENCODING=UTF-8
 
 RUN pip install awscli --upgrade --user
 
-RUN export PATH=/root/.local/bin:$PATH
+ENV PATH="/root/.local/bin:$PATH"
